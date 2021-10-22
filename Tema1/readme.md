@@ -44,5 +44,7 @@ la decriptarea urmatorului bloc.
 ### Testele efectuate pe diverse fisiere de intrare
 
 Am testat programul pe doua fisiere de intrare, unul mai scurt si altul mai lung
-iar ambele teste au trecut cu succes.
+iar ambele teste au trecut cu succes. Am observat ca doua blocuri identice raman identice
+dupa criptarea cu ECB fata ce CFB unde sunt diferite datorita vectorului de initializare
+care se schimba de la bloc la bloc.
 

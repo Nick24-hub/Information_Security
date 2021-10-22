@@ -20,6 +20,7 @@ B = Node(MC)
 
 # setez modul de operare ecb
 A.set_mode(MC, "ecb", B)
+print("Modul ECB:\n")
 
 # trimit mesajele din nodul A in nodul B
 A.send_message(msg1, B)
@@ -30,6 +31,7 @@ print("\n")
 
 # setez modul de operare cfb
 A.set_mode(MC, "cfb", B)
+print("Modul CFB:\n")
 
 A.send_message(msg1, B)
 print("\n")
